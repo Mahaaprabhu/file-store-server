@@ -1,0 +1,25 @@
+{
+  "name": "filestoreserver",
+  "version": "1.0.0",
+  "description": "Sample File Store application using Express, Multer, GridFS and Mangoose",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mahaaprabhu Elangoventhan (mahaaprabhu@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "gridfs-stream": "^1.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "engines": {
+    "node": "12.19.0"
+  }
+}
